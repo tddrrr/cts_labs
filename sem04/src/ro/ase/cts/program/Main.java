@@ -1,6 +1,7 @@
 package ro.ase.cts.program;
 
 import ro.ase.cts.clase.BrokerTranzactie;
+import ro.ase.cts.clase.CabinetMedical;
 import ro.ase.cts.clase.LazyBrokerTranzactie;
 
 public class Main {
@@ -23,6 +24,12 @@ public class Main {
 		
 		System.out.println(lazy1.toString());
 		System.out.println(lazy2.toString()); //returneaza lazy1
+		
+		CabinetMedical cabinet1 = CabinetMedical.getInstance("Ion Andrei", 20, true);
+		CabinetMedical cabinet2 = CabinetMedical.getInstance("Ion", 50, false);
+
+		System.out.println(cabinet1);
+		System.out.println(cabinet2);
 
 	}
 

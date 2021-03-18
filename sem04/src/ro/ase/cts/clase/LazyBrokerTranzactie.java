@@ -39,12 +39,12 @@ public class LazyBrokerTranzactie {
 		builder.append("]");
 		return builder.toString();
 	}
-	
-	public static LazyBrokerTranzactie getInstance(String name, int vechime, int nrTranzactii) {
+	// pt a fi thread safe folosim synchronized; eager initialization e clar threadSafe
+	public static synchronized LazyBrokerTranzactie getInstance(String name, int vechime, int nrTranzactii) {
 		if (broker == null) {
 			broker = new LazyBrokerTranzactie(name, vechime, nrTranzactii);
 		}
-		return broker;
+		return broker; 
 	}
 	
 	
