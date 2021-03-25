@@ -6,7 +6,7 @@ public class Program {
 		// TODO Auto-generated method stub
 
 		try {
-//			FactoryPersonal factory = new FactoryPersonal();
+//			FactoryPersonal factory = new FactoryPersonal(); asta pt cand metoda e non-statica
 			PersonalSpital personal1;
 			PersonalSpital personal2;
 			personal1 = FactoryPersonal.createPersonal(TipPersonal.Medic, "Ion", 1500);
