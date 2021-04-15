@@ -1,6 +1,6 @@
 package ro.ase.cts.facade.clase;
 
-public class Picolo {
+ class Picolo {
 	public boolean esteDebarasata(int cod) {
 		if (cod%4 == 0) {
 			return true;

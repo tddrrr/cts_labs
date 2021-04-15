@@ -1,9 +1,7 @@
 package ro.ase.cts.facade.program;
 
 import ro.ase.cts.facade.clase.Facade;
-import ro.ase.cts.facade.clase.GestiuneMese;
 import ro.ase.cts.facade.clase.Masa;
-import ro.ase.cts.facade.clase.Picolo;
 
 public class Program {
 

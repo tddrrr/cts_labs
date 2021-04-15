@@ -1,6 +1,6 @@
 package ro.ase.cts.facade.clase;
 
-public class GestiuneMese {
+ class GestiuneMese {
 	public boolean esteMasaLibera(int cod) {
 		if (cod%2 == 1) {
 			return true;
