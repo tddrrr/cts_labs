@@ -1,4 +1,4 @@
-package ro.ase.cts.prototype;
+ package ro.ase.cts.prototype;
 
 public interface RetetaMedicament {
 	

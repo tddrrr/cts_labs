@@ -12,7 +12,11 @@ public class Program {
 		
 		RezervareBuilder builder = new RezervareBuilder().setAreBauturaRacoritoare(true);
 		Rezervare rezervare3 = builder.build();  //se realizeaza shallow copy
+		System.out.println(rezervare3.toString());
 		Rezervare rezervare4 = builder.setCodRezervare(100).build(); //se realizeaza shallow copy
+		System.out.println(rezervare3.toString());
+		System.out.println(rezervare4.toString());
+
 	}
 
 }
