@@ -6,15 +6,12 @@ public class Client implements Flyweight{
 	private String email;
 	
 	
-	
 	public Client(String nume, String nrTelefon, String email) {
 		super();
 		this.nume = nume;
 		this.nrTelefon = nrTelefon;
 		this.email = email;
 	}
-
-
 
 	@Override
 	public void printeazaRezervare(Rezervare rezervare) {

@@ -11,6 +11,7 @@ public class Program {
 		client.setModPlata(new Card());
 		client.platesteNota(200);
 		client.setModPlata(new Cash());
+		client.platesteNota(50);
 	}
 
 }
