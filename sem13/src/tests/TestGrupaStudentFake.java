@@ -3,13 +3,16 @@ package tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
+import categorii.TesteGetPromovabilitate;
 import clase.Grupa;
 import dubluri.StudentFake;
 
 public class TestGrupaStudentFake {
 
 	@Test
+	@Category({TesteGetPromovabilitate.class})
 	public void testPromovabilitateAreRestante() {
 		Grupa grupa1 = new Grupa(1077);
 		for (int i=0; i<8; i++) {
